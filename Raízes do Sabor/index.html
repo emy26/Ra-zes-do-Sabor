@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<style type="text/css">
+    p{
+        color: rgb(54, 32, 14);
+    }
+   
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--Apresentação do tema-->
+    <section class="cabecalho">
+        <h1>SABOR DAS RAÍZES</h1>
+        <h3>Conectando pessoas, sabores e histórias</h3>
+    </section>
+
+    <!--cabeçalho do site-->
+    <nav class="navbar navbar-expand-lg bg-emelly">
+        <div class="container-fluid ">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="index.html">Quem somos? |</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="energia.html">Turismo do Sabor |</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="agua.html">Produtos Coloniais |</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="producao.html">Linha Sustentável</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Primeira seção a ser dividida-->
+    <div class="container">
+        <div class="row pt-5">
+            <div class="col ">
+                <div>
+                    <h2>O que é a Sabor das Raízes?</h2>
+                    <p class="alinha">Sabor das Raízes é uma startup que une tradição e inovação, promovendo a valorização dos produtos coloniais e do turismo rural sustentável de Laranjeiras do Sul.
+Criamos um ecossistema digital e físico que conecta produtores, consumidores e turistas, gerando renda, cultura e experiências únicas.
+                    </p>
+                </div>
+            </div>
+            <div class="col text-center">
+                <div>
+                    <img class="img-agro br-3" src="./assets/image/Farmers market-pana.png" alt="Imagem representativa barracas de feira">
+                </div>
+            </div>
+        </div>
+        <!-- Seção de Depoimentos -->
+
+
+        <div class="row pt-5">
+            <h3 class="text-center pb-3">O que Oferecemos?</h3>
+            <div class="col d-flex justify-content-center">
+                <div class="card bg-emelly3" style="width: 18rem;">
+                    <img src="./assets/image/produtos.jpg" class="img-card card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Produtos Coloniais</h5>
+                        <p class="card-text"> Sabor da tradição em cada pedacinho. Produtos coloniais que resgatam a memória e o carinho da comida feita em casa, com receitas de família passadas de geração em geração. Experimente a geleia de frutas frescas, o salame curado lentamente ou o pão caseiro.</p>
+                        <a href="#" class="btn btn-primary bg-emelly4">Saiba mais sobre:</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col d-flex justify-content-center">
+                <div class="card bg-emelly3" style="width: 18rem;">
+                    <img src="./assets/image/mesacomida.jpg" class="img-card card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Turismo de Sabor</h5>
+                        <p class="card-text"> Explore sabores, aromas e texturas. Deixe o paladar guiar sua próxima aventura e descubra a alma de um lugar em cada prato. Admire a paisagem do campo enquanto aprecia seus deliciosos frutos. Desfrute as mais saborosas receitas que revelam belas histórias.</p>
+                        <a href="#" class="btn btn-primary bg-emelly4">Saiba mais sobre:</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col d-flex justify-content-center">
+                <div class="card bg-emelly3" style="width: 18rem;">
+                    <img src="./assets/image/sustentavel.jpg" class="img-card card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Linha Sustentável</h5>
+                        <p class="card-text">Os produtos coloniais unem tradição e cuidado com o meio ambiente. Cada queijo, pão e geleia artesanal carrega o sabor autêntico do campo e o compromisso com um futuro melhor. Especialmente cultivados de forma orgânica e com embalagens biodegradáveis.</p>
+                        <a href="#" class="btn btn-primary bg-emelly4">Saiba mais sobre:</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="carouselExample" class="carousel slide pt-4 pb-3">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/image/pordosol.jpg" class="img-slide d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/image/mesagarcom.jpg" class=" img-slide d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <div class="footer ">
+        <p>Todos os direitos reservados </p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

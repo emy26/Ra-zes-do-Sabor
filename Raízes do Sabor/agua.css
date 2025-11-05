@@ -1,0 +1,175 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+.cabecalho{
+    color: white;
+    background-color: rgb(190, 150, 103);
+    text-align: center;
+    padding: 30px;
+}
+
+.cabecalho h1{
+    color: rgb(94, 64, 31);
+}
+
+.cabecalho h3{
+    color: rgb(105, 80, 52);
+}
+.footer{
+    background-color: rgb(151, 112, 67);
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+.bg-emelly{
+    background-color: rgb(151, 112, 67);
+}
+/* Espaço geral entre seções */
+section {
+    padding: 80px 40px;
+  }
+  
+  /* Imagem com texto ao lado */
+  .image-text {
+    background-color:  #d6ba8a ;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    flex-wrap: wrap;
+  }
+  
+  .image-text img {
+    width: 550px;
+    height: auto;
+    border-radius: 12px;
+  }
+  
+  .text-content {
+    max-width: 600px;
+    padding: 20px;
+  }
+  
+  /* Duas imagens centralizadas */
+  .two-images {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+  }
+  
+  .two-images img {
+    width: 300px;
+    height: auto;
+    border-radius: 12px;
+  }
+  
+  
+  
+  /* Seção de conteúdo grande */
+  .large-content {
+    background-color: #d6ba8a ;
+    max-width: 3000px;
+    margin: 0 auto;
+    font-size: 18px;
+  }
+  
+  .large-content h2 {
+    background-color: #d6ba8a ;
+    margin-bottom: 20px;
+    font-size: 32px;
+  }
+  h3{
+    color: rgb(73, 45, 8);
+  }
+  h2{
+    color: rgb(73, 45, 8);
+   
+  }
+
+  /* Cartões que viram */
+.flip-card-section {
+    background-color:   #d6ba8a ;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding: 80px 40px;
+  }
+  
+  .flip-card {
+    background: transparent;
+    width: 280px;
+    height: 360px;
+    perspective: 1000px;
+    cursor: pointer;
+  }
+  
+  .flip-inner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-card.flipped .flip-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-front, .flip-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+    overflow: hidden;
+  }
+  
+  .flip-front img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .flip-back {
+    background-color: #eedbbb ;
+    color: #333;
+    padding: 20px;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+   
+  /* Galeria */
+  .gallery {
+    padding: 80px 40px;
+    text-align: center;
+    background-color:   #d6ba8a ;
+  }
+  
+  .gallery h2 {
+    margin-bottom: 40px;
+    font-size: 28px;
+  }
+  
+  .gallery-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .gallery-grid img {
+    width: 250px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }

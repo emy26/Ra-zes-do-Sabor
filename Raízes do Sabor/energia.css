@@ -1,0 +1,81 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+.cabecalho{
+    color: white;
+    background-color:rgb(190, 150, 103);
+    text-align: center;
+    padding: 30px;
+}
+
+.cabecalho h1{
+    color: rgb(94, 64, 31);
+}
+
+.cabecalho h3{
+    color: rgb(105, 80, 52);
+}
+
+.footer{
+    background-color: rgb(151, 112, 67);
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+.bg-emelly{
+    background-color: rgb(151, 112, 67);
+}
+
+
+  
+  /* Texto com imagem à direita */
+  .text-image-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 80px;
+    gap: 80px;
+    flex-wrap: wrap;
+    background-color: #d6ba8a ;
+  }
+  
+  .text-image-right .text-block {
+    max-width: 700px;
+  }
+  
+  .text-image-right img {
+    width: 400px;
+    height: auto;
+    border-radius: 12px;
+  }
+  
+  /* Icon Cards */
+  .icon-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 80px 40px;
+    background-color:  #d6ba8a;
+  }
+  
+  .icon-cards .card {
+    background-color:  #f0dcbb ;
+    padding: 30px;
+    width: 280px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+ h2{
+    color: rgb(73, 45, 8);
+ } 
+ h3{
+    color: rgb(73, 45, 8);
+  
+}

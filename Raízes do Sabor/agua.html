@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style type="text/css">
+    p{
+        color: rgb(54, 32, 14);
+    }
+   
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="agua.css">
+</head>
+<body>
+     <!--Apresentação do tema-->
+    <section class="cabecalho">
+        <h1>SABOR DAS RAÍZES</h1>
+        <h3>Conectando pessoas, sabores e histórias</h3>
+    </section>
+
+    <!--cabeçalho do site-->
+    <nav class="navbar navbar-expand-lg bg-emelly">
+        <div class="container-fluid ">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="index.html">Quem somos? |</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="energia.html">Turismo do Sabor |</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="agua.html">Produtos Coloniais |</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="producao.html">Linha Sustentável</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+   <!-- Seção com imagem e texto ao lado -->
+   <section class="image-text">
+    <img src="./assets/image/potes.jpg" alt="Descrição da imagem">
+    <div class="text-content">
+    
+      <p>Os Produtos Coloniais são o verdadeiro retrato do sabor e da tradição do interior. Feitos de forma artesanal, com ingredientes frescos e receitas que passam de geração em geração, eles carregam em cada detalhe o cuidado e a história de quem vive da terra. Queijos curados, salames, pães, geleias, mel e vinhos expressam a identidade e a riqueza cultural de Laranjeiras do Sul, conquistando paladares com sua autenticidade e qualidade incomparável. Ao escolher um produto colonial, o consumidor não adquire apenas um alimento — ele leva consigo um pedaço da história, do carinho e do trabalho de famílias que mantêm vivas as raízes da nossa região.</p>
+    </div>
+  </section>
+
+    </div>
+  </section>
+     <!-- Cartões que viram -->
+  <section class="flip-card-section">
+    <div class="flip-card" onclick="this.classList.toggle('flipped')">
+      <div class="flip-inner">
+        <div class="flip-front">
+          <img src="./assets/image/mel.jpg" alt="Imagem 1">
+        </div>
+        <div class="flip-back">
+          <h3>Sítio Doce Encanto</h3>
+          <p>Fundado por Seu Arlindo e Dona Neuza, produz mel puro e natural, colhido de forma sustentável, preservando as flores e a tradição rural de Laranjeiras do Sul.</p>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card" onclick="this.classList.toggle('flipped')">
+      <div class="flip-inner">
+        <div class="flip-front">
+          <img src="./assets/image/queijo.jpg" alt="Imagem 2">
+        </div>
+        <div class="flip-back">
+          <h3>Queijaria Santo Campo</h3>
+          <p>João e sua filha Mariana mantêm viva a arte de fazer queijos coloniais com leite fresco e receitas de família, unindo tradição e qualidade artesanal.
+</p>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card" onclick="this.classList.toggle('flipped')">
+      <div class="flip-inner">
+        <div class="flip-front">
+          <img src="./assets//image/pao.jpg" alt="Imagem 3">
+        </div>
+        <div class="flip-back">
+          <h3>Pães D.Helena</h3>
+          <p>Dona Helena, com suas receitas herdadas da avó, produz pães coloniais com fermentação natural e ingredientes locais, levando o sabor acolhedor do interior a cada fornada.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ <!-- Galeria de imagens -->
+  <section class="gallery">
+    <h2>Outros Produtos</h2>
+    <div class="gallery-grid">
+      <img src="./assets/image/vinho.jpg" alt="Projeto 1">
+      <img src="./assets/image/salame.jpg" alt="Projeto 2">
+      <img src="./assets/image/frutas.jpg" alt="Projeto 3">
+      <img src="./assets/image/leite.jpg" alt="Projeto 4">
+    </div>
+  </section>
+
+  
+  </section>
+  <div class="footer ">
+    <p>Todos os direitos reservados </p>
+</div>
+</body>
+</html>
